@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+}
+@media(max-width: 650px){
+    .cont{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}
