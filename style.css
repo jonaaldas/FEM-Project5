@@ -3,11 +3,14 @@ body{
     flex-direction: column;
 }
 
-.cont{
-    display: flex;
+span{
+    color:hsl(333, 80%, 67%)
 }
-@media(max-width: 650px){
+
+
+@media(max-width: 800px){
     .cont{
+        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -94,6 +97,113 @@ body{
         align-self: center;
     }
 
+
+
+
+}
+
+@media (min-width: 760px) {
+    body{
+        height: 1000px;
+        justify-content: center;
+    }
+    .cont-desktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+        height: 400px;
+    }
+
+    .cont-1{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cont-1-h1{
+        font-size: 4.5em;
+    }
+
+
+    .cont-1-h1, .cont-1-h2{
+        width: 65%;
+    }
+
+    .cont-2{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cont-2-star-cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(300, 24%, 96%);
+        width: 450px;
+        margin: 20px;
+        height: 55px;
+        border-radius: 10px;
+    }
+
+    .starts{
+        margin-right: 35px;;
+    }
+
+
+
+    #star-desktop-2{
+        margin-left: 5rem;
+    }
+    #star-desktop-3{
+        margin-left: 10rem;
+    }
+
+
+    .cont-3{
+        display: flex;
+        height: 300px;
+        border: 1px solid rebeccapurple;
+        padding-left: 11rem;
+        padding-right: 27rem;
+        color: white;
+    }
+
+    .cont-3-holder{
+        background-color: hsl(300, 43%, 22%);
+        margin-right: 25px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cont-3-image-holder{
+        display: flex;
+        flex: 0.5;
+        height: 50px;
+    }
+
+    .name-cont{
+        flex: 6;
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+
+
+
+    .review-img{
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .p1{
+        margin: 0 0 0 0;
+    }
 
 
 
