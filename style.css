@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     flex-direction: column;
@@ -45,7 +46,7 @@ span{
 }
 
 
-/* Starts */
+
 
 .cont-2{
     display: flex;
@@ -70,7 +71,7 @@ span{
     margin-bottom: 40px;;
 }
 
-/* Revviews */
+
 
 .cont-3{
     display: flex;
@@ -121,26 +122,50 @@ span{
     line-height: 25px;
 }
 
-@media (min-width: 768px) and (max-width: 1444px) {
+@media (min-width: 768px) {
     .cont-desktop{
         display: flex;
         flex-direction: row;
-        color: red
+        height: 500px;
     }
 
     .cont-1{
         max-width: 450px;
         min-width: 400px;
     }
+
+    .cont-1-h1{
+        font-size: 30px;
+    }
+
+    .cont-2{
+        margin-top: 100px;
+        max-width: 420px;
+    }
     .cont-2-star-cont{
-        
+        margin: 10px;
         flex-direction: row;
         max-width: 450px;
         min-width: 400px;
+        height: 54px;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;
+    }
+
+    #star-desktop-2{
+        margin-left: 150px;
+    }
+
+    #star-desktop-3{
+        margin-left: 250px;
     }
 
     .cont-3{
         flex-direction: row;
+        margin-top: 30px;
+        height: 370px;
+        min-width: fit-content
     }
 
     .cont-3-holder:last-child{
@@ -149,13 +174,24 @@ span{
 
     .cont-3-holder{
         margin: 0;
+        margin-right: 20px;
+    }
+
+    #cont-3-holder2{
+        margin-top: 20px;
+    }
+
+    #cont-3-holder3{
+        margin-top: 40px;
     }
 
 }
+
+
 
 /* @media (min-width: 1445px) {
     .cont-desktop{
         color: olive
     }
-}
- */
+} */
+
